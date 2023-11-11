@@ -1,0 +1,23 @@
+package exception_Handling;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class TestCheckedException2 {
+
+	public static void main(String[] args) throws ParseException {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		SimpleDateFormat  sdf = new SimpleDateFormat("yyyy-MM--dd");
+		System.out.println("enter the dob as yy-mm-dd");
+		Date dob = sdf.parse(sc.next());
+		System.out.println(dob);
+		sc.close();
+		System.out.println("main over");
+		
+
+	}
+
+}

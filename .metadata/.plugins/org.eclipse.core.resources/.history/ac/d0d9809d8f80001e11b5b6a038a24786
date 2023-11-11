@@ -1,0 +1,12 @@
+package exception_Handling;
+
+import java.util.Scanner;
+
+public class TestCheckedException3 {
+	public static void main (String args []) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the date of birth :dd/MM/yyyy");
+		System.out.println("DOB : "+parseDob(sc.next()));
+	}
+
+}

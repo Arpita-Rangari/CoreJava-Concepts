@@ -1,0 +1,14 @@
+package exception_Handling;
+
+import java.util.Scanner;
+
+public class TestCheckException {
+	public static void main(String args []) {
+		try {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("enter DOB as year-mm--yy");
+			
+		}
+	}
+
+}

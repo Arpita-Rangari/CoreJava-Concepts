@@ -1,0 +1,15 @@
+package exception_Handling;
+
+public class TestUncheckException2 {
+
+	public static void main (String args []) {
+		try {
+			int a=100;
+			int b=2;
+			System.out.println(a/0);
+		}
+		finally {
+			System.out.println("inside finally");
+		}
+	}
+}
